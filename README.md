@@ -6,18 +6,9 @@
 
 ---
 
-## Quick navigation
-
-| [📊 Analytics](#-github-analytics) | [📦 Projects](#-featured-projects) | [🛠 Stack](#-engineering-signals) | [📬 Connect](#-connect) |
-|-----------------------------------|-----------------------------------|----------------------------------|--------------------------|
-
----
-
 ## 📊 GitHub Analytics
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=arash-ahmadii&theme=tokyo-night&hide_border=true&radius=8&height=320" alt="Activity Graph" width="100%" />
-
-**Top languages:** PHP · JavaScript · TypeScript · HTML · CSS
+<img src="assets/analytics.svg" width="100%" alt="Analytics" />
 
 #### Contribution snake *(last 365 days)*
 
