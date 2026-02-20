@@ -5,9 +5,6 @@
     <filter id="bf2"><feGaussianBlur id="b2" in="SourceGraphic" stdDeviation="10"/></filter>
     <filter id="bf3"><feGaussianBlur id="b3" in="SourceGraphic" stdDeviation="10"/></filter>
     <filter id="bf4"><feGaussianBlur id="b4" in="SourceGraphic" stdDeviation="10"/></filter>
-    <filter id="bf5"><feGaussianBlur id="b5" in="SourceGraphic" stdDeviation="10"/></filter>
-    <filter id="bf6"><feGaussianBlur id="b6" in="SourceGraphic" stdDeviation="10"/></filter>
-    <filter id="bf7"><feGaussianBlur id="b7" in="SourceGraphic" stdDeviation="10"/></filter>
   </defs>
   <g fill="#79c0ff">
     <circle cx="15" cy="8" r="0.8"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2s" repeatCount="indefinite"/></circle>
@@ -99,73 +96,128 @@
     <circle cx="680" cy="138" r="0.8"><animate attributeName="opacity" values="0.22;0.75;0.22" dur="2.3s" repeatCount="indefinite" begin="0.3s"/></circle>
     <circle cx="780" cy="128" r="0.6"><animate attributeName="opacity" values="0.2;0.68;0.2" dur="2.1s" repeatCount="indefinite" begin="0.9s"/></circle>
   </g>
+  <g fill="#ffd700">
+    <circle cx="22" cy="5" r="0.7"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.3s" repeatCount="indefinite" begin="0.1s"/></circle>
+    <circle cx="52" cy="28" r="1"><animate attributeName="opacity" values="0.25;0.85;0.25" dur="2.5s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="82" cy="8" r="0.8"><animate attributeName="opacity" values="0.2;0.75;0.2" dur="2.2s" repeatCount="indefinite" begin="0.7s"/></circle>
+    <circle cx="112" cy="42" r="1.3"><animate attributeName="opacity" values="0.22;0.9;0.22" dur="2.6s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="142" cy="15" r="0.7"><animate attributeName="opacity" values="0.25;0.82;0.25" dur="2.4s" repeatCount="indefinite" begin="0.5s"/></circle>
+    <circle cx="172" cy="38" r="1.2"><animate attributeName="opacity" values="0.2;0.88;0.2" dur="2.3s" repeatCount="indefinite" begin="0.8s"/></circle>
+    <circle cx="202" cy="12" r="0.8"><animate attributeName="opacity" values="0.22;0.8;0.22" dur="2.5s" repeatCount="indefinite" begin="0.3s"/></circle>
+    <circle cx="232" cy="40" r="1.4"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.7s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="262" cy="18" r="0.9"><animate attributeName="opacity" values="0.2;0.85;0.2" dur="2.2s" repeatCount="indefinite" begin="0.1s"/></circle>
+    <circle cx="292" cy="45" r="1.5"><animate attributeName="opacity" values="0.22;0.88;0.22" dur="2.8s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="322" cy="22" r="0.8"><animate attributeName="opacity" values="0.25;0.8;0.25" dur="2.3s" repeatCount="indefinite" begin="0.9s"/></circle>
+    <circle cx="352" cy="42" r="1.1"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.5s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="382" cy="8" r="0.9"><animate attributeName="opacity" values="0.22;0.85;0.22" dur="2.4s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="412" cy="42" r="1.6"><animate attributeName="opacity" values="0.25;0.92;0.25" dur="2.9s" repeatCount="indefinite" begin="0.5s"/></circle>
+    <circle cx="442" cy="22" r="0.9"><animate attributeName="opacity" values="0.2;0.82;0.2" dur="2.2s" repeatCount="indefinite" begin="0.3s"/></circle>
+    <circle cx="472" cy="38" r="1.2"><animate attributeName="opacity" values="0.22;0.88;0.22" dur="2.6s" repeatCount="indefinite" begin="0.7s"/></circle>
+    <circle cx="502" cy="12" r="0.8"><animate attributeName="opacity" values="0.25;0.8;0.25" dur="2.3s" repeatCount="indefinite" begin="0.1s"/></circle>
+    <circle cx="532" cy="40" r="1.4"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.7s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="562" cy="18" r="0.9"><animate attributeName="opacity" values="0.22;0.85;0.22" dur="2.4s" repeatCount="indefinite" begin="0.8s"/></circle>
+    <circle cx="592" cy="45" r="1.2"><animate attributeName="opacity" values="0.25;0.88;0.25" dur="2.5s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="622" cy="10" r="0.7"><animate attributeName="opacity" values="0.2;0.78;0.2" dur="2.2s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="652" cy="42" r="1.3"><animate attributeName="opacity" values="0.22;0.9;0.22" dur="2.6s" repeatCount="indefinite" begin="0.3s"/></circle>
+    <circle cx="682" cy="22" r="0.8"><animate attributeName="opacity" values="0.25;0.85;0.25" dur="2.3s" repeatCount="indefinite" begin="0.9s"/></circle>
+    <circle cx="712" cy="38" r="1.1"><animate attributeName="opacity" values="0.2;0.88;0.2" dur="2.5s" repeatCount="indefinite" begin="0.1s"/></circle>
+    <circle cx="742" cy="15" r="0.9"><animate attributeName="opacity" values="0.22;0.82;0.22" dur="2.4s" repeatCount="indefinite" begin="0.5s"/></circle>
+    <circle cx="772" cy="40" r="0.8"><animate attributeName="opacity" values="0.25;0.85;0.25" dur="2.3s" repeatCount="indefinite" begin="0.7s"/></circle>
+    <circle cx="30" cy="65" r="0.9"><animate attributeName="opacity" values="0.2;0.85;0.2" dur="2.5s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="70" cy="85" r="0.7"><animate attributeName="opacity" values="0.25;0.78;0.25" dur="2.2s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="110" cy="102" r="1.2"><animate attributeName="opacity" values="0.22;0.9;0.22" dur="2.6s" repeatCount="indefinite" begin="0.8s"/></circle>
+    <circle cx="150" cy="68" r="0.8"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.3s" repeatCount="indefinite" begin="0.3s"/></circle>
+    <circle cx="190" cy="105" r="1.3"><animate attributeName="opacity" values="0.25;0.88;0.25" dur="2.7s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="230" cy="82" r="0.9"><animate attributeName="opacity" values="0.22;0.85;0.22" dur="2.4s" repeatCount="indefinite" begin="0.1s"/></circle>
+    <circle cx="270" cy="115" r="1.1"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.5s" repeatCount="indefinite" begin="0.5s"/></circle>
+    <circle cx="310" cy="62" r="0.8"><animate attributeName="opacity" values="0.25;0.78;0.25" dur="2.2s" repeatCount="indefinite" begin="0.9s"/></circle>
+    <circle cx="350" cy="98" r="1.4"><animate attributeName="opacity" values="0.22;0.88;0.22" dur="2.8s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="390" cy="75" r="0.9"><animate attributeName="opacity" values="0.2;0.85;0.2" dur="2.3s" repeatCount="indefinite" begin="0.7s"/></circle>
+    <circle cx="430" cy="108" r="1"><animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.6s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="470" cy="88" r="0.8"><animate attributeName="opacity" values="0.22;0.82;0.22" dur="2.4s" repeatCount="indefinite" begin="0.1s"/></circle>
+    <circle cx="510" cy="65" r="1.3"><animate attributeName="opacity" values="0.2;0.88;0.2" dur="2.7s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="550" cy="118" r="0.9"><animate attributeName="opacity" values="0.25;0.85;0.25" dur="2.3s" repeatCount="indefinite" begin="0.3s"/></circle>
+    <circle cx="590" cy="82" r="1.1"><animate attributeName="opacity" values="0.22;0.9;0.22" dur="2.5s" repeatCount="indefinite" begin="0.8s"/></circle>
+    <circle cx="630" cy="102" r="0.7"><animate attributeName="opacity" values="0.2;0.75;0.2" dur="2.2s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="670" cy="68" r="1.2"><animate attributeName="opacity" values="0.25;0.88;0.25" dur="2.6s" repeatCount="indefinite" begin="0.5s"/></circle>
+    <circle cx="710" cy="112" r="0.8"><animate attributeName="opacity" values="0.22;0.82;0.22" dur="2.4s" repeatCount="indefinite" begin="0.9s"/></circle>
+    <circle cx="750" cy="92" r="1"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.5s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="790" cy="78" r="0.9"><animate attributeName="opacity" values="0.25;0.85;0.25" dur="2.3s" repeatCount="indefinite" begin="0.7s"/></circle>
+    <circle cx="40" cy="38" r="0.6"><animate attributeName="opacity" values="0.22;0.7;0.22" dur="2.1s" repeatCount="indefinite" begin="0.3s"/></circle>
+    <circle cx="100" cy="55" r="0.7"><animate attributeName="opacity" values="0.2;0.75;0.2" dur="2.3s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="160" cy="52" r="0.8"><animate attributeName="opacity" values="0.25;0.78;0.25" dur="2.2s" repeatCount="indefinite" begin="0.1s"/></circle>
+    <circle cx="220" cy="58" r="0.6"><animate attributeName="opacity" values="0.22;0.72;0.22" dur="2.4s" repeatCount="indefinite" begin="0.8s"/></circle>
+    <circle cx="280" cy="45" r="0.7"><animate attributeName="opacity" values="0.2;0.76;0.2" dur="2.1s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="340" cy="65" r="0.6"><animate attributeName="opacity" values="0.25;0.7;0.25" dur="2.3s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="400" cy="52" r="0.8"><animate attributeName="opacity" values="0.22;0.8;0.22" dur="2.2s" repeatCount="indefinite" begin="0.7s"/></circle>
+    <circle cx="460" cy="58" r="0.7"><animate attributeName="opacity" values="0.2;0.75;0.2" dur="2.4s" repeatCount="indefinite" begin="0.5s"/></circle>
+    <circle cx="520" cy="48" r="0.6"><animate attributeName="opacity" values="0.25;0.72;0.25" dur="2.1s" repeatCount="indefinite" begin="0.9s"/></circle>
+    <circle cx="580" cy="62" r="0.8"><animate attributeName="opacity" values="0.22;0.78;0.22" dur="2.3s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="640" cy="55" r="0.7"><animate attributeName="opacity" values="0.2;0.74;0.2" dur="2.2s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="700" cy="42" r="0.6"><animate attributeName="opacity" values="0.25;0.7;0.25" dur="2.4s" repeatCount="indefinite" begin="0.1s"/></circle>
+    <circle cx="760" cy="68" r="0.8"><animate attributeName="opacity" values="0.22;0.76;0.22" dur="2.3s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="25" cy="125" r="0.7"><animate attributeName="opacity" values="0.2;0.72;0.2" dur="2.2s" repeatCount="indefinite" begin="0.5s"/></circle>
+    <circle cx="105" cy="130" r="0.8"><animate attributeName="opacity" values="0.25;0.78;0.25" dur="2.4s" repeatCount="indefinite" begin="0.3s"/></circle>
+    <circle cx="185" cy="70" r="0.6"><animate attributeName="opacity" values="0.22;0.68;0.22" dur="2.1s" repeatCount="indefinite" begin="0.8s"/></circle>
+    <circle cx="265" cy="110" r="0.9"><animate attributeName="opacity" values="0.2;0.72;0.2" dur="2.3s" repeatCount="indefinite" begin="0.1s"/></circle>
+    <circle cx="345" cy="82" r="0.7"><animate attributeName="opacity" values="0.25;0.7;0.25" dur="2.2s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="425" cy="115" r="0.6"><animate attributeName="opacity" values="0.22;0.65;0.22" dur="2.1s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="505" cy="88" r="0.8"><animate attributeName="opacity" values="0.2;0.75;0.2" dur="2.4s" repeatCount="indefinite" begin="0.9s"/></circle>
+    <circle cx="585" cy="122" r="0.7"><animate attributeName="opacity" values="0.25;0.7;0.25" dur="2.3s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="665" cy="92" r="0.6"><animate attributeName="opacity" values="0.22;0.68;0.22" dur="2.2s" repeatCount="indefinite" begin="0.7s"/></circle>
+    <circle cx="745" cy="105" r="0.8"><animate attributeName="opacity" values="0.2;0.72;0.2" dur="2.3s" repeatCount="indefinite" begin="0.5s"/></circle>
+    <circle cx="85" cy="137" r="0.6"><animate attributeName="opacity" values="0.25;0.65;0.25" dur="2.1s" repeatCount="indefinite" begin="0.3s"/></circle>
+    <circle cx="205" cy="135" r="0.7"><animate attributeName="opacity" values="0.22;0.7;0.22" dur="2.2s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="325" cy="132" r="0.5"><animate attributeName="opacity" values="0.2;0.68;0.2" dur="2.3s" repeatCount="indefinite" begin="0.1s"/></circle>
+    <circle cx="445" cy="137" r="0.7"><animate attributeName="opacity" values="0.25;0.72;0.25" dur="2.4s" repeatCount="indefinite" begin="0.8s"/></circle>
+    <circle cx="565" cy="129" r="0.6"><animate attributeName="opacity" values="0.22;0.7;0.22" dur="2.2s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="685" cy="135" r="0.8"><animate attributeName="opacity" values="0.2;0.75;0.2" dur="2.3s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="775" cy="125" r="0.6"><animate attributeName="opacity" values="0.25;0.68;0.25" dur="2.1s" repeatCount="indefinite" begin="0.7s"/></circle>
+    <circle cx="760" cy="28" r="3.5"><animate attributeName="opacity" values="0.35;0.95;0.35" dur="2.5s" repeatCount="indefinite"/></circle>
+  </g>
   <g font-family="sans-serif" font-size="22" font-weight="400" fill="#f0f6fc">
-    <g filter="url(#bf0)" transform="translate(76,48)">
+    <g filter="url(#bf0)" transform="translate(157,48)">
       <g>
-        <text x="0" y="0">Technical</text>
+        <text x="0" y="0">Technical Lead</text>
         <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" fill="freeze"/>
         <animate attributeName="transform" values="translate(0,14) scale(0.92);translate(0,0) scale(1)" keyTimes="0;1" dur="2s" fill="freeze"/>
       </g>
       <animate href="#b0" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" fill="freeze"/>
     </g>
-    <g filter="url(#bf1)" transform="translate(196,48)">
+    <g filter="url(#bf1)" transform="translate(287,48)">
       <g>
-        <text x="0" y="0">Lead</text>
-        <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.08s" fill="freeze"/>
-        <animate attributeName="transform" values="translate(0,14) scale(0.92);translate(0,0) scale(1)" keyTimes="0;1" dur="2s" begin="0.08s" fill="freeze"/>
+        <text x="0" y="0">  |  </text>
+        <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.1s" fill="freeze"/>
+        <animate attributeName="transform" values="translate(0,14) scale(0.92);translate(0,0) scale(1)" keyTimes="0;1" dur="2s" begin="0.1s" fill="freeze"/>
       </g>
-      <animate href="#b1" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.08s" fill="freeze"/>
+      <animate href="#b1" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.1s" fill="freeze"/>
     </g>
-    <g filter="url(#bf2)" transform="translate(264,48)">
+    <g filter="url(#bf2)" transform="translate(322,48)">
       <g>
-        <text x="0" y="0">·</text>
-        <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.14s" fill="freeze"/>
-        <animate attributeName="transform" values="translate(0,14) scale(0.92);translate(0,0) scale(1)" keyTimes="0;1" dur="2s" begin="0.14s" fill="freeze"/>
-      </g>
-      <animate href="#b2" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.14s" fill="freeze"/>
-    </g>
-    <g filter="url(#bf3)" transform="translate(292,48)">
-      <g>
-        <text x="0" y="0">Systems</text>
+        <text x="0" y="0">Systems Architect</text>
         <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.2s" fill="freeze"/>
         <animate attributeName="transform" values="translate(0,14) scale(0.92);translate(0,0) scale(1)" keyTimes="0;1" dur="2s" begin="0.2s" fill="freeze"/>
       </g>
-      <animate href="#b3" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.2s" fill="freeze"/>
+      <animate href="#b2" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.2s" fill="freeze"/>
     </g>
-    <g filter="url(#bf4)" transform="translate(407,48)">
+    <g filter="url(#bf3)" transform="translate(477,48)">
       <g>
-        <text x="0" y="0">Architect</text>
-        <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.28s" fill="freeze"/>
-        <animate attributeName="transform" values="translate(0,14) scale(0.92);translate(0,0) scale(1)" keyTimes="0;1" dur="2s" begin="0.28s" fill="freeze"/>
+        <text x="0" y="0">  |  </text>
+        <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.3s" fill="freeze"/>
+        <animate attributeName="transform" values="translate(0,14) scale(0.92);translate(0,0) scale(1)" keyTimes="0;1" dur="2s" begin="0.3s" fill="freeze"/>
       </g>
-      <animate href="#b4" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.28s" fill="freeze"/>
+      <animate href="#b3" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.3s" fill="freeze"/>
     </g>
-    <g filter="url(#bf5)" transform="translate(522,48)">
+    <g filter="url(#bf4)" transform="translate(512,48)">
       <g>
-        <text x="0" y="0">·</text>
-        <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.34s" fill="freeze"/>
-        <animate attributeName="transform" values="translate(0,14) scale(0.92);translate(0,0) scale(1)" keyTimes="0;1" dur="2s" begin="0.34s" fill="freeze"/>
-      </g>
-      <animate href="#b5" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.34s" fill="freeze"/>
-    </g>
-    <g filter="url(#bf6)" transform="translate(550,48)">
-      <g>
-        <text x="0" y="0">Full-Stack</text>
+        <text x="0" y="0">Full-Stack Engineer</text>
         <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.4s" fill="freeze"/>
         <animate attributeName="transform" values="translate(0,14) scale(0.92);translate(0,0) scale(1)" keyTimes="0;1" dur="2s" begin="0.4s" fill="freeze"/>
       </g>
-      <animate href="#b6" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.4s" fill="freeze"/>
-    </g>
-    <g filter="url(#bf7)" transform="translate(670,48)">
-      <g>
-        <text x="0" y="0">Engineer</text>
-        <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.48s" fill="freeze"/>
-        <animate attributeName="transform" values="translate(0,14) scale(0.92);translate(0,0) scale(1)" keyTimes="0;1" dur="2s" begin="0.48s" fill="freeze"/>
-      </g>
-      <animate href="#b7" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.48s" fill="freeze"/>
+      <animate href="#b4" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.4s" fill="freeze"/>
     </g>
   </g>
-  <text x="410" y="98" fill="#8b949e" font-family="sans-serif" font-size="13" font-weight="400" text-anchor="middle">
+  <text x="410" y="76" fill="#8b949e" font-family="sans-serif" font-size="13" font-weight="400" text-anchor="middle">
     React · Next.js · System Design · Automation · Scalable Architectures
   </text>
 </svg>
