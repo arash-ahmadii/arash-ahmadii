@@ -36,68 +36,61 @@ async function getStats() {
   };
 }
 
-function clampPct(val, max) {
-  return Math.min(100, Math.round((val / max) * 100));
-}
-
 function buildSvg(stats) {
-  const r = 58;
-  const half = Math.PI * r;
-  const repoPct = clampPct(stats.repos, 15);
-  const starPct = clampPct(stats.stars, 30);
-  const langPct = stats.topLangPct;
-  const offset = (pct) => half * (1 - pct / 100);
+  const C = '#22d3ee';
+  const gridLines = [];
+  for (let i = 0; i <= 82; i++) {
+    gridLines.push(`<line x1="${i * 10}" y1="0" x2="${i * 10}" y2="240" stroke="${C}" stroke-width="0.3" opacity="0.06"/>`);
+  }
+  for (let i = 0; i <= 24; i++) {
+    gridLines.push(`<line x1="0" y1="${i * 10}" x2="820" y2="${i * 10}" stroke="${C}" stroke-width="0.3" opacity="0.06"/>`);
+  }
+
+  const card = (x, y, w, h) =>
+    `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="12" ry="12" fill="#161b22" stroke="${C}" stroke-width="1" opacity="0.95"/>`;
+
+  const repoIcon = `<g stroke="${C}" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="8" y="12" width="28" height="22" rx="2"/>
+      <path d="M8 18h28"/>
+      <rect x="12" y="6" width="12" height="6" rx="1"/>
+    </g>`;
+  const starIcon = `<g stroke="${C}" stroke-width="1.5" fill="none" stroke-linejoin="round">
+      <path d="M22 4l2.5 7.7h8l-6.5 4.7 2.5 7.7-6.5-4.7-6.5 4.7 2.5-7.7-6.5-4.7h8z"/>
+    </g>`;
+  const langIcon = `<g stroke="${C}" stroke-width="1.8" fill="none">
+      <path d="M8 12 L4 24 L8 36" stroke-linecap="round"/>
+      <path d="M36 12 L40 24 L36 36" stroke-linecap="round"/>
+    </g>`;
 
   return `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="220" viewBox="0 0 820 220">
-  <defs>
-    <linearGradient id="ag" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#58a6ff"/>
-      <stop offset="100%" style="stop-color:#79c0ff"/>
-    </linearGradient>
-    <filter id="agGlow">
-      <feGaussianBlur stdDeviation="0.4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-  <g transform="translate(0,20)">
-    <g transform="translate(137,0)">
-      <path d="M 0 ${r} A ${r} ${r} 0 0 1 ${2*r} ${r}" fill="none" stroke="#21262d" stroke-width="10" stroke-linecap="round"/>
-      <path d="M 0 ${r} A ${r} ${r} 0 0 1 ${2*r} ${r}" fill="none" stroke="url(#ag)" stroke-width="10" stroke-linecap="round" stroke-dasharray="${half}" stroke-dashoffset="${half}" filter="url(#agGlow)">
-        <animate attributeName="stroke-dashoffset" from="${half}" to="${offset(repoPct)}" dur="1.4s" fill="freeze"/>
-        <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite" begin="2s"/>
-      </path>
-      <text x="${r}" y="${r-8}" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="600" fill="#e6edf3">${stats.repos}</text>
-      <text x="${r}" y="${r+28}" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#8b949e">Repos</text>
-    </g>
-    <g transform="translate(410,0)">
-      <path d="M 0 ${r} A ${r} ${r} 0 0 1 ${2*r} ${r}" fill="none" stroke="#21262d" stroke-width="10" stroke-linecap="round"/>
-      <path d="M 0 ${r} A ${r} ${r} 0 0 1 ${2*r} ${r}" fill="none" stroke="url(#ag)" stroke-width="10" stroke-linecap="round" stroke-dasharray="${half}" stroke-dashoffset="${half}" filter="url(#agGlow)">
-        <animate attributeName="stroke-dashoffset" from="${half}" to="${offset(starPct)}" dur="1.4s" begin="0.2s" fill="freeze"/>
-        <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite" begin="2.2s"/>
-      </path>
-      <text x="${r}" y="${r-8}" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="600" fill="#e6edf3">${stats.stars}</text>
-      <text x="${r}" y="${r+28}" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#8b949e">Stars</text>
-    </g>
-    <g transform="translate(683,0)">
-      <path d="M 0 ${r} A ${r} ${r} 0 0 1 ${2*r} ${r}" fill="none" stroke="#21262d" stroke-width="10" stroke-linecap="round"/>
-      <path d="M 0 ${r} A ${r} ${r} 0 0 1 ${2*r} ${r}" fill="none" stroke="url(#ag)" stroke-width="10" stroke-linecap="round" stroke-dasharray="${half}" stroke-dashoffset="${half}" filter="url(#agGlow)">
-        <animate attributeName="stroke-dashoffset" from="${half}" to="${offset(langPct)}" dur="1.4s" begin="0.4s" fill="freeze"/>
-        <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite" begin="2.4s"/>
-      </path>
-      <text x="${r}" y="${r-8}" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e6edf3">${stats.topLang}</text>
-      <text x="${r}" y="${r+28}" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#8b949e">Top lang</text>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="240" viewBox="0 0 820 240">
+  <rect width="820" height="240" fill="#0d1117"/>
+  <g>${gridLines.join('')}</g>
+  <g>
+    ${card(20, 20, 340, 200)}
+    <g transform="translate(50, 40)">${repoIcon}</g>
+    <text x="50" y="100" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#ffffff">Total Repositories</text>
+    <text x="50" y="140" font-family="system-ui,sans-serif" font-size="32" font-weight="700" fill="#ffffff">${stats.repos}</text>
+    <text x="50" y="170" font-family="system-ui,sans-serif" font-size="12" fill="#8b949e">Public repositories in your profile</text>
   </g>
-  <rect x="0" y="195" width="820" height="1" fill="#21262d" opacity="0.6">
-    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2.5s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="0" y="195" width="180" height="1" fill="#58a6ff" opacity="0.7">
-    <animate attributeName="x" from="0" to="640" dur="4s" repeatCount="indefinite"/>
-  </rect>
+  <g>
+    ${card(380, 20, 205, 95)}
+    <g transform="translate(395, 38)">${starIcon}</g>
+    <text x="395" y="70" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Stars Earned</text>
+    <text x="395" y="95" font-family="system-ui,sans-serif" font-size="24" font-weight="700" fill="#ffffff">${stats.stars}</text>
+  </g>
+  <g>
+    ${card(605, 20, 195, 95)}
+    <g transform="translate(620, 38)">${langIcon}</g>
+    <text x="620" y="70" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Top Language</text>
+    <text x="620" y="95" font-family="system-ui,sans-serif" font-size="22" font-weight="700" fill="#ffffff">${stats.topLang}</text>
+  </g>
+  <g>
+    ${card(380, 125, 420, 95)}
+    <text x="395" y="155" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Contribution Activity</text>
+    <text x="395" y="185" font-family="system-ui,sans-serif" font-size="12" fill="#8b949e">Last 365 days · see snake below</text>
+    <path d="M395 195h120" stroke="${C}" stroke-width="1" opacity="0.6"/>
+  </g>
 </svg>
 `;
 }
