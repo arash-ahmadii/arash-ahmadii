@@ -1,61 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="200" viewBox="0 0 880 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="160" viewBox="0 0 820 160">
   <defs>
-    <linearGradient id="shimmer" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="320" y2="0">
-      <stop offset="0" style="stop-color:#6e7681"/>
-      <stop offset="0.4" style="stop-color:#6e7681"/>
-      <stop offset="0.5" style="stop-color:#79c0ff"/>
-      <stop offset="0.6" style="stop-color:#6e7681"/>
-      <stop offset="1" style="stop-color:#6e7681"/>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff"/>
+      <stop offset="100%" style="stop-color:#79c0ff"/>
     </linearGradient>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:transparent"/>
-      <stop offset="45%" style="stop-color:#58a6ff;stop-opacity:0.3"/>
-      <stop offset="50%" style="stop-color:#79c0ff;stop-opacity:0.9"/>
-      <stop offset="55%" style="stop-color:#58a6ff;stop-opacity:0.3"/>
-      <stop offset="100%" style="stop-color:transparent"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="0.6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
   </defs>
-  <rect width="880" height="200" fill="#0d1117"/>
-  <g opacity="0.07">
-    <line x1="0" y1="50" x2="880" y2="50" stroke="#58a6ff" stroke-width="0.5"/>
-    <line x1="0" y1="100" x2="880" y2="100" stroke="#58a6ff" stroke-width="0.5"/>
-    <line x1="0" y1="150" x2="880" y2="150" stroke="#58a6ff" stroke-width="0.5"/>
-    <line x1="220" y1="0" x2="220" y2="200" stroke="#58a6ff" stroke-width="0.5"/>
-    <line x1="440" y1="0" x2="440" y2="200" stroke="#58a6ff" stroke-width="0.5"/>
-    <line x1="660" y1="0" x2="660" y2="200" stroke="#58a6ff" stroke-width="0.5"/>
-  </g>
-  <rect x="0" y="98" width="880" height="1" fill="url(#lineGrad)">
-    <animate attributeName="opacity" values="0.25;0.85;0.25" dur="2.5s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="0" y="98" width="140" height="1" fill="#79c0ff" opacity="0.65">
-    <animate attributeName="x" from="0" to="740" dur="3.5s" repeatCount="indefinite"/>
-  </rect>
-  <text x="440" y="72" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="25" font-weight="500" fill="url(#shimmer)" filter="url(#glow)">
+  <text x="410" y="52" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="22" font-weight="600" fill="#e6edf3">
     Technical Lead · Systems Architect · Full-Stack Engineer
   </text>
-  <animate href="#shimmer" attributeName="x1" from="0" to="880" dur="3.5s" repeatCount="indefinite"/>
-  <animate href="#shimmer" attributeName="x2" from="320" to="1200" dur="3.5s" repeatCount="indefinite"/>
-  <text x="440" y="108" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="14" font-weight="400" fill="#8b949e">
+  <path id="underline" d="M 180 62 L 640 62" stroke="url(#accent)" stroke-width="2" stroke-linecap="round" fill="none" stroke-dasharray="460" stroke-dashoffset="460">
+    <animate attributeName="stroke-dashoffset" from="460" to="0" dur="1.2s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite" begin="1.5s"/>
+  </path>
+  <rect x="0" y="78" width="120" height="1.5" fill="#58a6ff" opacity="0.6" rx="1">
+    <animate attributeName="x" from="0" to="700" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="410" y="100" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,sans-serif" font-size="13" font-weight="400" fill="#8b949e">
     React · Next.js · System Design · Automation · Scalable Architectures
-    <animate attributeName="opacity" values="0.65;1;0.65" dur="2.8s" repeatCount="indefinite" begin="0.5s"/>
   </text>
-  <circle cx="70" cy="32" r="1.5" fill="#58a6ff">
-    <animate attributeName="opacity" values="0.2;0.75;0.2" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="810" cy="168" r="1.5" fill="#58a6ff">
-    <animate attributeName="opacity" values="0.25;0.7;0.25" dur="2.3s" repeatCount="indefinite" begin="0.4s"/>
-  </circle>
-  <circle cx="760" cy="38" r="1" fill="#79c0ff">
-    <animate attributeName="opacity" values="0.35;0.85;0.35" dur="1.9s" repeatCount="indefinite" begin="0.2s"/>
-  </circle>
-  <circle cx="120" cy="162" r="1" fill="#79c0ff">
-    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2.1s" repeatCount="indefinite" begin="0.6s"/>
-  </circle>
+  <g fill="#58a6ff">
+    <circle cx="268" cy="48" r="1.5">
+      <animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="552" cy="48" r="1.5">
+      <animate attributeName="opacity" values="0.25;0.9;0.25" dur="2.2s" repeatCount="indefinite" begin="0.5s"/>
+    </circle>
+  </g>
 </svg>
