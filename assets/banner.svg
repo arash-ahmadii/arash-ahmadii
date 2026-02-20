@@ -1,5 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="150" viewBox="0 0 820 150">
   <defs>
+    <linearGradient id="lineGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#79c0ff;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0"/>
+    </linearGradient>
     <filter id="bf0"><feGaussianBlur id="b0" in="SourceGraphic" stdDeviation="10"/></filter>
     <filter id="bf1"><feGaussianBlur id="b1" in="SourceGraphic" stdDeviation="10"/></filter>
     <filter id="bf2"><feGaussianBlur id="b2" in="SourceGraphic" stdDeviation="10"/></filter>
@@ -75,9 +80,11 @@
       <animate href="#b7" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.48s" fill="freeze"/>
     </g>
   </g>
-  <line x1="112" y1="72" x2="708" y2="72" stroke="#30363d" stroke-width="1" opacity="0.6"/>
-  <rect x="112" y="71" width="120" height="1" fill="#58a6ff" opacity="0.6">
-    <animate attributeName="x" from="112" to="492" dur="2.5s" fill="freeze" begin="2.2s"/>
+  <line x1="112" y1="72" x2="708" y2="72" stroke="#30363d" stroke-width="1" opacity="0.5">
+    <animate attributeName="opacity" values="0.4;0.65;0.4" dur="2.2s" repeatCount="indefinite"/>
+  </line>
+  <rect x="112" y="70.5" width="140" height="2" fill="url(#lineGlow)" opacity="0.85" rx="1">
+    <animate attributeName="x" from="112" to="568" dur="3.5s" repeatCount="indefinite"/>
   </rect>
   <text x="410" y="98" fill="#8b949e" font-family="sans-serif" font-size="13" font-weight="400" text-anchor="middle">
     React · Next.js · System Design · Automation · Scalable Architectures
