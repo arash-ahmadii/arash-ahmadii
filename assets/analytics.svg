@@ -16,8 +16,8 @@
   <g transform="translate(0,20)">
     <g transform="translate(137,0)">
       <path d="M 0 58 A 58 58 0 0 1 116 58" fill="none" stroke="#21262d" stroke-width="10" stroke-linecap="round"/>
-      <path d="M 0 58 A 58 58 0 0 1 116 58" fill="none" stroke="url(#ag)" stroke-width="10" stroke-linecap="round" stroke-dasharray="182" stroke-dashoffset="182" filter="url(#agGlow)">
-        <animate attributeName="stroke-dashoffset" from="182" to="91" dur="1.4s" fill="freeze"/>
+      <path d="M 0 58 A 58 58 0 0 1 116 58" fill="none" stroke="url(#ag)" stroke-width="10" stroke-linecap="round" stroke-dasharray="182.212373908208" stroke-dashoffset="182.212373908208" filter="url(#agGlow)">
+        <animate attributeName="stroke-dashoffset" from="182.212373908208" to="122.08229051849935" dur="1.4s" fill="freeze"/>
         <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite" begin="2s"/>
       </path>
       <text x="58" y="50" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="600" fill="#e6edf3">5</text>
@@ -25,8 +25,8 @@
     </g>
     <g transform="translate(410,0)">
       <path d="M 0 58 A 58 58 0 0 1 116 58" fill="none" stroke="#21262d" stroke-width="10" stroke-linecap="round"/>
-      <path d="M 0 58 A 58 58 0 0 1 116 58" fill="none" stroke="url(#ag)" stroke-width="10" stroke-linecap="round" stroke-dasharray="182" stroke-dashoffset="182" filter="url(#agGlow)">
-        <animate attributeName="stroke-dashoffset" from="182" to="182" dur="1.4s" begin="0.2s" fill="freeze"/>
+      <path d="M 0 58 A 58 58 0 0 1 116 58" fill="none" stroke="url(#ag)" stroke-width="10" stroke-linecap="round" stroke-dasharray="182.212373908208" stroke-dashoffset="182.212373908208" filter="url(#agGlow)">
+        <animate attributeName="stroke-dashoffset" from="182.212373908208" to="182.212373908208" dur="1.4s" begin="0.2s" fill="freeze"/>
         <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite" begin="2.2s"/>
       </path>
       <text x="58" y="50" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="600" fill="#e6edf3">0</text>
@@ -34,8 +34,8 @@
     </g>
     <g transform="translate(683,0)">
       <path d="M 0 58 A 58 58 0 0 1 116 58" fill="none" stroke="#21262d" stroke-width="10" stroke-linecap="round"/>
-      <path d="M 0 58 A 58 58 0 0 1 116 58" fill="none" stroke="url(#ag)" stroke-width="10" stroke-linecap="round" stroke-dasharray="182" stroke-dashoffset="182" filter="url(#agGlow)">
-        <animate attributeName="stroke-dashoffset" from="182" to="55" dur="1.4s" begin="0.4s" fill="freeze"/>
+      <path d="M 0 58 A 58 58 0 0 1 116 58" fill="none" stroke="url(#ag)" stroke-width="10" stroke-linecap="round" stroke-dasharray="182.212373908208" stroke-dashoffset="182.212373908208" filter="url(#agGlow)">
+        <animate attributeName="stroke-dashoffset" from="182.212373908208" to="72.8849495632832" dur="1.4s" begin="0.4s" fill="freeze"/>
         <animate attributeName="opacity" values="1;0.85;1" dur="3s" repeatCount="indefinite" begin="2.4s"/>
       </path>
       <text x="58" y="50" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="600" fill="#e6edf3">PHP</text>
