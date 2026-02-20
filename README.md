@@ -2,10 +2,6 @@
 
 <img src="assets/banner.svg" width="100%" alt="banner" />
 
-**Technical Lead · Systems Architect · Full-Stack Engineer**
-
-React · Next.js · System Design · Automation · Scalable Architectures
-
 </div>
 
 ---
