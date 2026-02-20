@@ -1,10 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="150" viewBox="0 0 820 150">
   <defs>
-    <linearGradient id="lineGlow" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0"/>
-      <stop offset="50%" style="stop-color:#79c0ff;stop-opacity:0.9"/>
-      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0"/>
-    </linearGradient>
     <filter id="bf0"><feGaussianBlur id="b0" in="SourceGraphic" stdDeviation="10"/></filter>
     <filter id="bf1"><feGaussianBlur id="b1" in="SourceGraphic" stdDeviation="10"/></filter>
     <filter id="bf2"><feGaussianBlur id="b2" in="SourceGraphic" stdDeviation="10"/></filter>
@@ -14,8 +9,21 @@
     <filter id="bf6"><feGaussianBlur id="b6" in="SourceGraphic" stdDeviation="10"/></filter>
     <filter id="bf7"><feGaussianBlur id="b7" in="SourceGraphic" stdDeviation="10"/></filter>
   </defs>
+  <g fill="#58a6ff" opacity="0.5">
+    <circle cx="60" cy="25" r="1"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="35" r="1.5"><animate attributeName="opacity" values="0.1;0.85;0.1" dur="3s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="300" cy="20" r="1"><animate attributeName="opacity" values="0.2;0.65;0.2" dur="2.2s" repeatCount="indefinite" begin="0.8s"/></circle>
+    <circle cx="420" cy="40" r="1.5"><animate attributeName="opacity" values="0.12;0.8;0.12" dur="2.8s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="550" cy="28" r="1"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="2.6s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="680" cy="32" r="1"><animate attributeName="opacity" values="0.1;0.75;0.1" dur="2.4s" repeatCount="indefinite" begin="0.3s"/></circle>
+    <circle cx="760" cy="22" r="1.5"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="3.2s" repeatCount="indefinite" begin="0.5s"/></circle>
+    <circle cx="120" cy="100" r="1"><animate attributeName="opacity" values="0.18;0.65;0.18" dur="2.7s" repeatCount="indefinite" begin="0.7s"/></circle>
+    <circle cx="250" cy="110" r="1"><animate attributeName="opacity" values="0.1;0.7;0.1" dur="2.3s" repeatCount="indefinite" begin="0.1s"/></circle>
+    <circle cx="500" cy="105" r="1.5"><animate attributeName="opacity" values="0.12;0.8;0.12" dur="2.9s" repeatCount="indefinite" begin="0.9s"/></circle>
+    <circle cx="720" cy="115" r="1"><animate attributeName="opacity" values="0.15;0.6;0.15" dur="2.5s" repeatCount="indefinite" begin="0.2s"/></circle>
+  </g>
   <g font-family="sans-serif" font-size="22" font-weight="400" fill="#f0f6fc">
-    <g filter="url(#bf0)" transform="translate(112,48)">
+    <g filter="url(#bf0)" transform="translate(76,48)">
       <g>
         <text x="0" y="0">Technical</text>
         <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" fill="freeze"/>
@@ -23,7 +31,7 @@
       </g>
       <animate href="#b0" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" fill="freeze"/>
     </g>
-    <g filter="url(#bf1)" transform="translate(230,48)">
+    <g filter="url(#bf1)" transform="translate(196,48)">
       <g>
         <text x="0" y="0">Lead</text>
         <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.08s" fill="freeze"/>
@@ -31,7 +39,7 @@
       </g>
       <animate href="#b1" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.08s" fill="freeze"/>
     </g>
-    <g filter="url(#bf2)" transform="translate(278,48)">
+    <g filter="url(#bf2)" transform="translate(264,48)">
       <g>
         <text x="0" y="0">·</text>
         <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.14s" fill="freeze"/>
@@ -39,7 +47,7 @@
       </g>
       <animate href="#b2" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.14s" fill="freeze"/>
     </g>
-    <g filter="url(#bf3)" transform="translate(323,48)">
+    <g filter="url(#bf3)" transform="translate(292,48)">
       <g>
         <text x="0" y="0">Systems</text>
         <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.2s" fill="freeze"/>
@@ -47,7 +55,7 @@
       </g>
       <animate href="#b3" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.2s" fill="freeze"/>
     </g>
-    <g filter="url(#bf4)" transform="translate(396,48)">
+    <g filter="url(#bf4)" transform="translate(407,48)">
       <g>
         <text x="0" y="0">Architect</text>
         <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.28s" fill="freeze"/>
@@ -55,7 +63,7 @@
       </g>
       <animate href="#b4" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.28s" fill="freeze"/>
     </g>
-    <g filter="url(#bf5)" transform="translate(526,48)">
+    <g filter="url(#bf5)" transform="translate(522,48)">
       <g>
         <text x="0" y="0">·</text>
         <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.34s" fill="freeze"/>
@@ -63,7 +71,7 @@
       </g>
       <animate href="#b5" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.34s" fill="freeze"/>
     </g>
-    <g filter="url(#bf6)" transform="translate(519,48)">
+    <g filter="url(#bf6)" transform="translate(550,48)">
       <g>
         <text x="0" y="0">Full-Stack</text>
         <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.4s" fill="freeze"/>
@@ -71,7 +79,7 @@
       </g>
       <animate href="#b6" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.4s" fill="freeze"/>
     </g>
-    <g filter="url(#bf7)" transform="translate(633,48)">
+    <g filter="url(#bf7)" transform="translate(670,48)">
       <g>
         <text x="0" y="0">Engineer</text>
         <animate attributeName="opacity" values="0;1" keyTimes="0;1" dur="2s" begin="0.48s" fill="freeze"/>
@@ -80,12 +88,6 @@
       <animate href="#b7" attributeName="stdDeviation" values="10;0" keyTimes="0;1" dur="2s" begin="0.48s" fill="freeze"/>
     </g>
   </g>
-  <line x1="112" y1="72" x2="708" y2="72" stroke="#30363d" stroke-width="1" opacity="0.5">
-    <animate attributeName="opacity" values="0.4;0.65;0.4" dur="2.2s" repeatCount="indefinite"/>
-  </line>
-  <rect x="112" y="70.5" width="140" height="2" fill="url(#lineGlow)" opacity="0.85" rx="1">
-    <animate attributeName="x" from="112" to="568" dur="3.5s" repeatCount="indefinite"/>
-  </rect>
   <text x="410" y="98" fill="#8b949e" font-family="sans-serif" font-size="13" font-weight="400" text-anchor="middle">
     React · Next.js · System Design · Automation · Scalable Architectures
   </text>
