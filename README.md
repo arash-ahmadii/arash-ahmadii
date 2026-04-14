@@ -38,6 +38,20 @@ Backend-focused software engineer building reliable, automation-friendly product
 
 ## Contact
 
-- Website: [dashweb.agency](https://dashweb.agency)
-- LinkedIn: [linkedin.com/in/arash-ahmadii-640a83104](https://linkedin.com/in/arash-ahmadii-640a83104)
-- Email: dev@dashweb.agency
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2400&pause=1200&color=38BDF8&center=true&vCenter=true&width=520&lines=Open+to+collaboration+and+backend+projects.;Let's+build+something+great+together." alt="Contact typing animation" />
+
+<p>
+  <a href="mailto:dev@dashweb.agency">
+    <img src="https://img.shields.io/badge/Email-dev%40dashweb.agency-ef4444?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://linkedin.com/in/arash-ahmadii-640a83104">
+    <img src="https://img.shields.io/badge/LinkedIn-Arash%20Ahmadi-0a66c2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
+  </a>
+  <a href="https://dashweb.agency">
+    <img src="https://img.shields.io/badge/Website-dashweb.agency-0ea5e9?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
+  </a>
+</p>
+
+</div>
