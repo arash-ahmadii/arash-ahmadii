@@ -24,33 +24,20 @@ Backend-focused software engineer building reliable, automation-friendly product
 
 ---
 
-## Player Dashboard
+## Focus Areas
 
-<img src="https://progress-bar.dev/90/?title=Backend+Systems&width=700&color=22d3ee" alt="Backend level" />
-<img src="https://progress-bar.dev/86/?title=Automation+Workflows&width=700&color=0ea5e9" alt="Automation level" />
-<img src="https://progress-bar.dev/84/?title=Production+Architecture&width=700&color=06b6d4" alt="Architecture level" />
+- Scalable backend systems
+- Workflow automation
+- Clean, production-ready architecture
 
-## Choose Your Quest
+## Projects
 
-| Quest | Reward |
-|---|---|
-| [Browse all repositories](https://github.com/arash-ahmadii?tab=repositories) | Discover new builds |
-| [See pinned repositories](https://github.com/arash-ahmadii) | Top missions |
-| [Nexora Service Suite](https://github.com/arash-ahmadii/Nexora-Service-Suite) | Enterprise backend campaign |
+- [Browse all repositories](https://github.com/arash-ahmadii?tab=repositories)
+- [See pinned repositories](https://github.com/arash-ahmadii)
+- [Nexora Service Suite](https://github.com/arash-ahmadii/Nexora-Service-Suite)
 
-## Live Arena
+## Contact
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arash-ahmadii&show_icons=true&hide_border=true&theme=transparent" width="49%" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arash-ahmadii&layout=compact&hide_border=true&theme=transparent" width="49%" alt="Top languages" />
-</p>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=arash-ahmadii&theme=github-compact&hide_border=true&area=true" width="100%" alt="Activity graph" />
-
-## Contact Terminal
-
-```bash
-> open https://dashweb.agency
-> open https://linkedin.com/in/arash-ahmadii-640a83104
-> mailto dev@dashweb.agency
-```
+- Website: [dashweb.agency](https://dashweb.agency)
+- LinkedIn: [linkedin.com/in/arash-ahmadii-640a83104](https://linkedin.com/in/arash-ahmadii-640a83104)
+- Email: dev@dashweb.agency
