@@ -46,7 +46,7 @@ Backend-focused software engineer building reliable, automation-friendly product
   <a href="mailto:dev@dashweb.agency">
     <img src="https://img.shields.io/badge/Email-dev%40dashweb.agency-ef4444?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://linkedin.com/in/arash-ahmadii-640a83104">
+  <a href="https://www.linkedin.com/in/arashahmadii-dev">
     <img src="https://img.shields.io/badge/LinkedIn-Arash%20Ahmadi-0a66c2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
   </a>
   <a href="https://dashweb.agency">
